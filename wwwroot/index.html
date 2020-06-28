@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link type="text/css" href="css/main.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body class="body">
+    <div class="container">
+        <div class="left-side"></div>
+        <div class="right-side" data-roomIndex="-1">
+            <div class="right-side-data">
+
+            </div>
+            <div class="add-form">
+                <div class="btn-form-container">
+                    <button class="btn-form" id="btnAdd">Add</button>
+                    <button class="btn-form" id="btnEdit">Edit</button>
+                    <button class="btn-form" id="btnRemove">Remove</button>
+                </div>
+                <div class="add-form-data">
+                    <p id="add-form-header"></p>
+                    <div class="inp-name" id="fid">
+                        <p>Id: </p>
+                        <input type="text" name="f-id" value="" />
+                    </div>
+                    <div class="inp-name" id="fname">
+                        <p>Name: </p>
+                        <input type="text" name="f-add-name" value="" />
+                    </div>
+                    <div class="inp-name" id="fcount">
+                        <p>Count: </p>
+                        <input type="text" name="f-add-count" value="" />
+                    </div>
+                    <button id="btnApply">Apply</button>
+                    <button id="btnClose">Close</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
